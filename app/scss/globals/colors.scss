@@ -42,11 +42,7 @@
     --card-bg: var(--dark-card);
     --card-hover: var(--dark-card-hover);
     --toggle: var(--light-bg);
-    --toggle-bg: linear-gradient(
-      225deg,
-      var(--toggle-bg-end) 0%,
-      var(--toggle-bg-start) 98.02%
-    );
+    --toggle-bg: linear-gradient(225deg, var(--toggle-bg-end) 0%, var(--toggle-bg-start) 98.02%);
     --toggle-button: var(--dark-bg);
   }
 }
@@ -69,10 +65,6 @@ body.dark {
   --card-bg: var(--dark-card);
   --card-hover: var(--dark-card-hover);
   --toggle: var(--light-bg);
-  --toggle-bg: linear-gradient(
-    225deg,
-    var(--toggle-bg-end) 0%,
-    var(--toggle-bg-start) 98.02%
-  );
+  --toggle-bg: linear-gradient(225deg, var(--toggle-bg-end) 0%, var(--toggle-bg-start) 98.02%);
   --toggle-button: var(--dark-bg);
 }
